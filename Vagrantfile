@@ -84,7 +84,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-      'recipe[php7-webserver::default]'
+      'recipe[php7_webserver::default]'
     ]
   end
 end

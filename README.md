@@ -1,4 +1,4 @@
-# php7-webserver-cookbook
+# php7_webserver-cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['php7-webserver']['bacon']</tt></td>
+    <td><tt>['php7_webserver']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### php7-webserver::default
+### php7_webserver::default
 
-Include `php7-webserver` in your node's `run_list`:
+Include `php7_webserver` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[php7-webserver::default]"
+    "recipe[php7_webserver::default]"
   ]
 }
 ```

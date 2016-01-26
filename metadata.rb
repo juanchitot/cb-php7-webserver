@@ -1,9 +1,9 @@
-name             'php7-webserver'
+name             'php7_webserver'
 maintainer       'Juan C. Medina Raco'
 maintainer_email 'juan.medina@strategery.io'
 license          'All rights reserved'
-description      'Installs/Configures PHP7-MySql5-Apache2.4 Webserver '
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+description      'Installs/Configures php7_webserver'
+long_description 'Installs/Configures php7_webserver'
 version          '0.1.0'
 
 depends 'apt'
