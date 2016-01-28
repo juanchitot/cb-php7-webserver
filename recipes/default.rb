@@ -6,5 +6,9 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+p node.default
+
 include_recipe 'php7_webserver::repository'
 include_recipe 'php7_webserver::php7'
+
+
