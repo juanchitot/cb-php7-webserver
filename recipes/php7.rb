@@ -1,3 +1,5 @@
+package_names = []
+
 if node['platform'] == 'ubuntu' and
     package_names = ["php7.0", \
                      "php7.0-json",\
