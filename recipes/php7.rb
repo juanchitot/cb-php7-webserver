@@ -16,8 +16,8 @@ if node['platform'] == 'centos'
                    "php70w-xmlrpc", \
                    "php70w-mcrypt", \
                    "php70w-gd", \
-                   "php70w-curl", \
-                   "php70w-cli" ,\ 
+                   "php70w-curl",\
+                   "php70w-cli" ,\
                    "php70w-mcrypt" \
                   ]
 end
